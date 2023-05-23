@@ -47,7 +47,7 @@ struct SubscriptionScreen: View {
                     
                     
                     
-                    MainLabel(title: "Дата доставки")
+                    MainLabel(title: "День недели")
                     SelectCollection(items: dayOfWArr, selectedItem: $user.dayOfWeek)
                         .padding(.horizontal)
                     MainLabel(title: "Время доставки")
